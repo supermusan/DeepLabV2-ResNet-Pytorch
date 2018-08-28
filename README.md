@@ -30,4 +30,5 @@ The project is an reimplementation of [DeepLabV2-ResNet](http://liangchiehchen.c
 1. change ```RESTORE_FROM``` of ```evaluate.py``` to your **trained .pth file** or you can download [demo weights](https://pan.baidu.com/s/1q4dCvuM_pcto2CGARrwgzg)
 2. run ```python evaluate.py```
 3. predictions are stored in ```outputs```
-![ex:prediction](https://github.com/CarryJzzZ/74.95-DeepLabV2-ResNet-Pytorch/blob/master/snapshots/mIoU.png)
+
+![ex:prediction](https://github.com/CarryJzzZ/74.95-DeepLabV2-ResNet-Pytorch/blob/master/snapshots/prediction.png)
