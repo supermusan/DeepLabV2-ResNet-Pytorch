@@ -19,6 +19,7 @@ The project is an reimplementation of [DeepLabV2-ResNet](http://liangchiehchen.c
 2. pytorch 0.3.1
 3. numpy
 4. opencv
+5. pillow
 
 ## Train
 1. Download this proj ```git clone https://github.com/CarryJzzZ/pithy-conky-colors.git```and enter it.
