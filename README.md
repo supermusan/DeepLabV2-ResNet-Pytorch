@@ -10,7 +10,7 @@ The project is an reimplementation of [DeepLabV2-ResNet](http://liangchiehchen.c
 ![mIoU](https://github.com/CarryJzzZ/74.95-DeepLabV2-ResNet-Pytorch/blob/master/snapshots/mIoU.png)
 
 * The running means and variances of ```batch normalization``` layer of ResNet will be updated. I will try to use ```for i in self.bn.parameters(): i.requires_grad = False```for ResNet layer to verify the performance.
-* ***Pytorch*** is more flexible to use **multi-gpu** than ***TensorFlow***, just use```torch.nn.DataParallel(model).cuda()```. But for ***BatchNorm synchronization across multipe GPUs*** I will try it after.
+* ***Pytorch*** is more flexible to use **multi-gpu** than ***TensorFlow***, just use```torch.nn.DataParallel(model).cuda()```. But for ***BatchNorm synchronization across multipe GPUs*** I will try it later.
 
 ## Usage
 
